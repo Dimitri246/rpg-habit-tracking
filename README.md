@@ -16,6 +16,21 @@ npm run dev
 - `npm run preview` : prévisualisation du build
 - `npm run lint` : vérifie le code avec ESLint
 
+## Problèmes courants
+
+Si vous ouvrez `index.html` directement via un fichier local ou un serveur statique, le navigateur ne peut pas interpréter les fichiers `.tsx` et renverra une erreur de type MIME. Pour éviter cela, lancez le serveur de développement Vite :
+
+```bash
+npm run dev
+```
+
+Ou générez le build puis prévisualisez-le :
+
+```bash
+npm run build
+npm run preview
+```
+
 ## Gameplay
 
 - Créez des habitudes et complétez des quêtes quotidiennes pour gagner de l'XP et de l'or.
